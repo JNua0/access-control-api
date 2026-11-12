@@ -1,5 +1,7 @@
 <Solution>
-  <Folder Name="/src/" />
+  <Folder Name="/src/">
+    <Project Path="src/AccessControl.SharedKernel/AccessControl.SharedKernel.csproj" />
+  </Folder>
   <Folder Name="/src/Modules/" />
   <Folder Name="/src/Modules/Identity/">
     <Project Path="src/Modules/Identity/AccessControl.Modules.Identity.Domain/AccessControl.Modules.Identity.Domain.csproj" />
