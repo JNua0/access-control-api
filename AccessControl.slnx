@@ -9,4 +9,7 @@
   <Folder Name="/src/Modules/Organization/">
     <Project Path="src/Modules/Organization/AccessControl.Modules.Organization.Domain/AccessControl.Modules.Organization.Domain.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AccessControl.Modules.Organization.Tests/AccessControl.Modules.Organization.Tests.csproj" />
+  </Folder>
 </Solution>
