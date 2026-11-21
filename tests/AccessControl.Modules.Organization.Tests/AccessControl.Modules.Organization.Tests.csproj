@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Modules\Organization\AccessControl.Modules.Organization.Application\AccessControl.Modules.Organization.Application.csproj" />
     <ProjectReference Include="..\..\src\Modules\Organization\AccessControl.Modules.Organization.Domain\AccessControl.Modules.Organization.Domain.csproj" />
   </ItemGroup>
 

@@ -11,4 +11,8 @@ public static class DepartmentErrors
     public static readonly Error NameTooLong = Error.Validation(
         "Department.NameTooLong",
         $"El nombre del departamento no debe superar los {Department.NameMaxLength} caracteres.");
+
+    public static readonly Error NameAlreadyExists = Error.Conflict(
+        "Department.NameAlreadyExists",
+        "El nombre del departamento ya esta registrado.");
 }
