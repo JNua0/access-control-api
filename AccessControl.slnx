@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="src/AccessControl.Api/AccessControl.Api.csproj" />
     <Project Path="src/AccessControl.SharedKernel/AccessControl.SharedKernel.csproj" />
   </Folder>
   <Folder Name="/src/Modules/" />
@@ -7,7 +8,9 @@
     <Project Path="src/Modules/Identity/AccessControl.Modules.Identity.Domain/AccessControl.Modules.Identity.Domain.csproj" />
   </Folder>
   <Folder Name="/src/Modules/Organization/">
+    <Project Path="src/Modules/Organization/AccessControl.Modules.Organization.Application/AccessControl.Modules.Organization.Application.csproj" />
     <Project Path="src/Modules/Organization/AccessControl.Modules.Organization.Domain/AccessControl.Modules.Organization.Domain.csproj" />
+    <Project Path="src/Modules/Organization/AccessControl.Modules.Organization.Infrastructure/AccessControl.Modules.Organization.Infrastructure.csproj" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/AccessControl.Modules.Organization.Tests/AccessControl.Modules.Organization.Tests.csproj" />

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modules\Organization\AccessControl.Modules.Organization.Application\AccessControl.Modules.Organization.Application.csproj" />
+    <ProjectReference Include="..\Modules\Organization\AccessControl.Modules.Organization.Infrastructure\AccessControl.Modules.Organization.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
